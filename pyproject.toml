@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beautiful-ternary"
+version = "0.0.3"
+authors = [
+  { name="Christian Witzenberger", email="christian.witzenberger@triplet.gmbh" },
+]
+description = "A simple Package to replace the akward built-in ternary operator with a function call."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/redewing/beautiful-ternary"
+Repository = "https://github.com/redewing/beautiful-ternary.git"
+Issues = "https://github.com/redewing/beautiful-ternary/issues"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+pythonpath = "src"
