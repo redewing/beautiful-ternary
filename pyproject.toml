@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "beautiful-ternary"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name="Christian Witzenberger", email="christian.witzenberger@triplet.gmbh" },
 ]
-description = "A simple Package to replace the akward built-in ternary operator with a function call."
+description = "A simple Package to replace the awkward built-in ternary operator with a function call."
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
